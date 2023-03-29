@@ -1,0 +1,23 @@
+Package: TraDISAnalyseRapp
+Title: An app to diagnose and correct chromosomal bias for TraDIS data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Geraldine", "Sullivan", , "geraldine.sullivan@hdr.mq.edu.au", role = c("aut", "cre"))
+Description: An R Shiny app that helps to diagnose whether chromosomal bias is occuring, correct for it, and analyse the normalised TraDIS data.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    edgeR,
+    FBN,
+    ggplot2,
+    ggpubr,
+    patchwork,
+    plotly,
+    purrr,
+    shiny,
+    shinyalert,
+    shinythemes,
+    vctrs
